@@ -4,7 +4,6 @@ var fs = require('fs');
 var express = require('express');
 bodyParser = require('body-parser'),
 path = require("path");
-var async = require("async");
 
 var app = express();
 
@@ -14,10 +13,9 @@ var app = express();
 // An example config file is included in this package for you as okta_config.json.example
 var config = require('./okta_config.json');
 
+
 // Create application/x-www-form-urlencoded parser
-var urlencodedParser = bodyParser.urlencoded({ extended: false })
-
-
+var urlencodedParser = bodyParser.urlencoded({ extended: false });
 // We will use ejs as our template engine for create user responses
 app.set('view engine', 'ejs');
 app.use(express.static('static'));
