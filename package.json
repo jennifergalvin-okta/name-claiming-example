@@ -1,0 +1,33 @@
+{
+  "name": "name-claiming-example",
+  "version": "1.0.0",
+  "description": "Claims a suspended account for reactivation",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jennifergalvin-okta/name-claiming-example"
+  },
+  "keywords": [
+    "okta",
+    "node",
+    "portal",
+    "name-claiming"
+  ],
+  "author": "Jennifer Galvin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jennifergalvin-okta/name-claiming-example/issues"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "node-rest-client": "^3.1.0"
+  }
+}
